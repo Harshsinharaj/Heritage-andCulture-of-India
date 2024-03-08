@@ -1,0 +1,87 @@
+
+
+div.Images{float:left}
+div.Images2{float:right}
+div.menu{float:center}
+
+
+span{color:#ffa500}
+span1{color:#008000}
+span2{color:#fff5ee}
+em{font-size:6em}
+a{color:yellow}
+p{color:red}
+div.abc a:hover{color:yellow;}
+ul.o  li {
+display:inline;}
+ul.o{padding-left:700px;margin-bottom:50px;}
+
+
+
+
+ ul  li:hover{color:green}
+
+#grad {
+    height: 100%; width:100%;
+    background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, blue); /* Standard syntax (must be last) */
+}
+
+div.TOURISM {font-weight: bold;  color: yellow ; z-index:5; border: 1px solid #225599; padding:2; text-align: center ;  width:12em; float:left;background-color:green ; position :relative;
+	left : 15%;}
+div.TOURISM:hover a{display: block; width:12em;}
+
+
+div.FESTIVAL {font-weight: bold;  color: yellow ;  border: 1px solid #225599; padding:2; text-align: center ;  width:12em; float:left;background-color:green ; position :relative;
+	left : 15%; z-index:5;}
+div.FESTIVAL:hover a{display: block; width:12em; }
+
+
+div.HOME {font-weight: bold;  color: yellow ;z-index:5;  border: 1px solid #225599; padding:2; text-align: center ;  width:12em;float:left; position :relative;
+	left : 15%;background-color:green}
+
+div.TRAVEL a{font-weight: bold;  color: yellow ;  border: 1px solid #225599; padding:2; position :relative;
+	left : 15%; text-align: center ;  width:12em;float:left;background-color:green}
+
+div.EBOOK {font-weight: bold;  color: yellow ;  border: 1px solid #225599; padding:2;  position :relative;
+	left : 15%;text-align: center ;  width:12em;float:left;background-color:green}
+
+div.MEDIA {font-weight: bold;  color: YELLOW ;  border: 1px solid #225599; padding:2;  position :relative;
+	left : 15%;text-align: center ;  width:12em;float:left;background-color:green}
+
+div.FAQ {font-weight: bold;  color: YELLOW ;  border: 1px solid #225599; position :relative;
+	left : 15%; padding:2; text-align: center ;  width:12em;float:left;background-color:green}
+
+
+h2{color:black}
+h3{color:black}
+
+h1{color:black}
+
+
+div.taj{position:absolute;top:80px;right:50px;}
+
+div.rail{position:absolute;top:200px;right:100px;}
+
+div.flight{position:absolute;top:800px;right:100px;}
+
+div.bus{position:absolute;top:1300px;right:100px;}
+div.trav{border :5px solid green;width:300px;}
+
+div.boxed{border :5px solid green;width:200px;float:left;top:0px;right:100px}
+div.abc{border :5px solid black;width:500px; height:100%;float:right}
+div.leh{position:absolute;top:100px;right:50px;width:450px;}
+
+#grad2 {
+    height: 200%;
+    background: -webkit-linear-gradient(red, orange, yellow, green, blue, indigo, violet); 
+    background: -o-linear-gradient(red, orange, yellow, green, blue, indigo, violet); 
+    background: -moz-linear-gradient(red, orange, yellow, green, blue, indigo, violet); 
+    background: linear-gradient(red, orange, yellow, green, blue, indigo, violet); 
+}
+
+div.Add1d{float:right;width : 100%; height : 200%}
+
+.Add1d{height:100%}
