@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>mainpage</title>
+<link rel="stylesheet" type="text/css" href="incredibleindia.css" />
+<style type="text/css">
+
+#tfheader{
+		background-color:#c3dfef;
+	}
+	#tfnewsearch{
+		float:right;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+#news{
+	 position :absolute;
+	left : 20%;
+	z-index : 1;}
+	
+div.boxed{border :5px solid Blue;width:300px;}
+body {background-image:url(background.jpg)}
+
+</style>
+</head>
+<script type="text/javascript">
+
+var image1=new Image()
+image1.src="pictures-of-taj-mahal-in-agra-3.jpg"
+var image2=new Image()
+image2.src="qutabminar.jpg"
+var image3=new Image()
+image3.src="leh.jpg"
+var image4=new Image()
+image4.src="golden.jpg"
+var image5=new Image()
+image5.src="indiagate.jpeg"
+
+</script>
+<body>
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
+<div class="abc">
+<marquee direction="down" scroll="10"><div class="Add1d"><a href="helpine.html"><img src="help.jpg"  width="100%" height="15%"/></br></br></br><a href="tourisms.html"><img src="MOT-PressAd.jpg" width="100%" height="15%"/></br></br></br><a href="swachBharat.html"><img src="SwachhBharatPoster.jpg" alt="acd" width="100%" height="15%"/></br></br></a><br/></div></marquee>
+</div>
+<nav class="navbar">
+    <div class="home">HOME</div>
+    <div class="TRAVEL"><a href="Travel.html">TRAVEL</a></div>
+    <div class="TOURISM"><a href="Tourisms1.html">TOURISM</a></div>
+    <div class="FESTIVAL"><a href="Festivals.html">FESTIVAL</a></div>
+    <div class="EBOOK"><a href="e-Books.html">E-BOOK</a></div>
+    <div class="MEDIA"><a href="Media.html">MEDIA</a></div>
+    <div class="FAQ"><a href="faq.html">FAQ</a></div><br/><br/>
+    <div id="news"><img src="images (14).jpg"" id="slide" width="1000px" height="800px" align = "center"></div>
+    <div class="boxed">
+    </nav>
+
+<h1>
+</br></br></br>
+<a href="tajmahal.html">TAJ MAHAL</a></br>
+<br/><a href="indiagate.html">INDIA GATE</a></br>
+<br/><a href="leh.html">LEH LADAKH</a></br>
+<br/><a href="elloracaves.html">ELLORA CAVES</a></br>
+<br/><a href="qutabminar.html">QUATAB MINAR</a></br>
+<br/><a href="citypalace.html">CITY PALACE</a></br>
+</br> </br> </br> </br> </br> </h1>
+</div>
+<script type="text/javascript">
+//variable that will increment through the images
+var step=1
+function slideit()
+{
+document.images.slide.src=eval("image"+step+".src")
+if(step<5)
+step++
+else
+step=1
+setTimeout("slideit()",2500)
+}
+slideit()
+</script>
+</body>
+</html>
